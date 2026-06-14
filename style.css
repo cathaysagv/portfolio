@@ -69,3 +69,12 @@ header{
     text-transform: uppercase;
     letter-spacing: 1px ;    
 }
+
+.sobre-columnas{
+    display: flex;
+    gap: 16px;
+}
+
+.sobre-texto, .sobre-datos{
+    flex:1;
+}
