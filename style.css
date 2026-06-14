@@ -62,3 +62,10 @@ header{
     align-items:baseline;
     gap: 18px;
 }
+
+.hero-etiqueta{
+    color: #c94f3d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px ;    
+}
