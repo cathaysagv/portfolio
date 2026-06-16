@@ -89,3 +89,30 @@ header{
 .sobre-datos dd{
     margin: 4px 0 32px;
 }
+
+/* === PROYECTOS ==== */
+.proyecto {
+    border: 1px solid #272723;
+    padding: 32px;  
+    background-color: #141412;
+    margin-bottom: 24px;
+}
+
+.proyecto ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+
+.proyecto li {
+    border: 1px solid #272723;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.proyecto-tipo{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #555350;
+    letter-spacing: 1px;
+}
