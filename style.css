@@ -136,3 +136,32 @@ header{
     color: #555350;
     letter-spacing: 1px;
 }
+ /* === CONTACTO === */
+.contacto{
+    display: flex;
+    gap: 40px;
+}
+
+.contacto-texto, .contacto-datos{
+    flex: 1;
+}
+
+.contacto-datos dt{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #555350;
+}
+
+.contacto-datos dd{
+    margin: 4px 0 32px;
+}
+
+.contacto-datos a {
+    text-decoration: none;
+    color: #f0ede6;
+}
+
+.contacto-datos a:hover{
+    color:  #d96050;
+}
