@@ -116,3 +116,23 @@ header{
     color: #555350;
     letter-spacing: 1px;
 }
+
+/* === STACK === */
+.stack ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.stack li{
+    border: 1px solid #272723;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.stack p {
+     font-size: 13px;
+    text-transform: uppercase;
+    color: #555350;
+    letter-spacing: 1px;
+}
