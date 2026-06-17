@@ -131,7 +131,7 @@ header{
 }
 
 .stack p {
-     font-size: 13px;
+    font-size: 13px;
     text-transform: uppercase;
     color: #555350;
     letter-spacing: 1px;
@@ -164,4 +164,12 @@ header{
 
 .contacto-datos a:hover{
     color:  #d96050;
+}
+
+/* === FOOTER === */
+footer{
+    border-top: 1px solid #272723;  
+    font-size: 13px;
+    color: #555350;
+    padding: 16px 12px;
 }
