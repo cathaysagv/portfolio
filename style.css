@@ -141,5 +141,27 @@ footer{
     border-top: 1px solid #272723;  
     font-size: 13px;
     color: #555350;
-    padding: 16px 12px;
+    padding: 12px 32px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+.container-footer a{
+     text-decoration: none;
+     color: #555350;
+     transition: color 0.2s;
+}
+
+.container-footer a:hover{
+    color: #f0ede6;
 }
